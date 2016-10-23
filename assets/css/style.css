@@ -1,4 +1,4 @@
-
+/*The main head */
 .head{
 	background-color:#ffffff;
 	border-bottom-color:#666666;
@@ -9,11 +9,13 @@
 	overflow: auto;
 	clear: both;
 }
+/*lower header*/
 .lowerheader{
 	width:960px;
 	margin:0 auto;
 
 }
+/*details for my name*/
 #name{
 	padding: 11px;
 	width: 40%;
