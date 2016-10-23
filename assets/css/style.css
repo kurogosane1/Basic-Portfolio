@@ -1,0 +1,325 @@
+
+.head{
+	background-color:#ffffff;
+	border-bottom-color:#666666;
+	border-style-bottom:solid;
+	border-width: 10px;
+	padding-top:0;
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
+}
+.lowerheader{
+	width:960px;
+	margin:0 auto;
+
+}
+#name{
+	padding: 11px;
+	width: 40%;
+	background-color: #4aaaa5;
+	font-size:30px;
+	float:left;
+	color:#ffffff;
+	position: relative;
+	bottom:-20px;
+	left: 0px;
+	
+}
+#about{
+	padding: 20px;
+	text-decoration:none;
+	background-color: #ffffff;
+	float:left;
+	font-size: 14px;
+	font-family:'Ariel','Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	right:-270px;
+	bottom:-50px;
+	border-right-style: groove;
+	border-left-style: groove;
+
+}
+
+#Portfolio{
+	padding:20px;
+	text-decoration:none;
+	background-color:#ffffff;
+	float:left;
+	font-size: 14px;
+	font-family:'Ariel','Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	right:-270px;
+	bottom:-50px;
+	border-right-style: groove;
+}
+#contact{
+	padding:20px;
+	text-decoration:none;
+	background-color:#ffffff;
+	float:left;
+	font-size: 14px;
+	font-family:'Ariel','Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	right:-270px;
+	bottom:-50px;
+	border-right-style: groove;
+}
+
+#me{
+	font-family:'Helvetica Neue' 'Arial' Helvetica, sans-serif;
+	color:#4aaaaf;
+	font-size:30px;
+	padding:20px;
+	border-color: #dddddd;
+	border-bottom-style: solid;
+}
+body{
+	
+	
+	background-color:#ffffff;
+	border-style:hidden;
+	background-image: URL(../images/white_wall.png);
+
+}
+.box{
+	width:650px;
+	float: left;
+	border-style: groove;
+	border-width: 2px;
+	border-color:#dddddd;
+	background-color:#ffffff;
+	position: relative;
+	left: 230px;
+	top: 10px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	float: left;
+	clear: both;
+}
+p{
+	font-family: 'serif', 'Times New Roman', serif, Georgia;
+	font-size: 18px;
+	color: #777777;
+	margin: 15px;
+}
+article{
+	
+	float: right;
+	width: 270px;
+	height:130px;
+	position: relative;
+	right: 245px;
+	top: 10px;
+	background-color: #ffffff;
+	display: inline;
+	border-bottom-style: solid;
+	border-color:#dddddd;
+}
+#connect{
+	font-size: 26px;
+	font-family:'Helvetica Neue' 'Arial' Helvetica, sans-serif;
+	color:#4aaaaf;
+	text-align:center;
+	
+	width: 270px;
+}
+.icon{
+	
+	padding: 20px;
+	width:270px;
+	b
+	overflow: auto;
+	clear: both;
+	
+
+}
+
+#git{
+
+	height:50px;
+	width:50px;
+	position: relative;
+	bottom:15px;
+	left: 0px;
+
+}
+#in{
+	height:50px;
+	width:50px;
+	position: relative;
+	bottom:100px;
+	left: 95px;
+	
+}
+#stack{
+	height:50px;
+	width:50px;
+	position: relative;
+	bottom:180px;
+	left: 190px;
+}
+footer{
+	color:#ffffff ;
+	padding: 20px;
+	background-color:#666666;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height: 30px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-width: 10px;
+	text-align:center;
+}
+
+/*This represents the contact box is the container where the contact information would be filled*/
+.contactbox
+{
+	width:650px;
+	height: 450px;
+	border-style: groove;
+	border-width: 2px;
+	border-color:#dddddd;
+	background-color:#ffffff;
+	position: relative;
+	left: 230px;
+	bottom: -10px;
+	float: left;
+}
+/*Here is the styling of the contact box elements*/
+#contactme
+{
+	font-family:'Helvetica Neue' 'Arial' Helvetica, sans-serif;
+	color:#4aaaaf;
+	font-size:18px;
+	padding:20px;
+	border-color: #dddddd;
+	border-bottom-style: solid;
+	
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/*This represents the container to fit all the portfolio items in*/
+.Folio{
+	padding: 10px 100px 100px 10px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	overflow: auto;
+	clear: both;
+	float: left;
+	width: 550px;
+	height: 400px;
+	position: relative;
+	left: 230px;
+	top: 10px;
+	border: groove 1px;
+	border-color: #dddddd;
+
+}
+#Port{
+	/*here the adjustments would be made for the Portfolio heading*/
+	color:#4aaaaf;
+	border-bottom-style: groove;
+
+	border-color: #dddddd;
+	padding: 10px 5px 5px 5px;
+}
+.wrapper {
+	width: 650px;
+	margin: 0 auto;
+	margin-top: 10px;
+	flex: 2;
+	float:left;
+	background-color: #ffffff;
+	position: relative;
+	left: 231px;
+}
+.portfolio {
+/*	margin-left: 20%;
+*/}
+.portfolio img {
+ 	filter: grayscale(80%);
+ 	width: 200px;
+ 	height: 200px;
+ 	height: auto;
+ 	border-radius: 0;
+ 	transition: 0.5s;
+ }
+ .portfolio img:hover {
+ 	filter: grayscale(0%);
+ 	transition: 0.5s;
+
+ }
+ .imagewrapper {
+ 	float: left;
+ 	display: inline-block;
+ 	margin: 10px;
+ 	position: relative;
+ 	width: auto;
+ }
+
+ .Text1 {
+ 	float: left;
+ 	top: 60%;
+	display: inline;
+	position: absolute;
+	z-index: 2;
+	width: 95%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*background-color: rgba(74, 170, 165, 0.9);*/
+	background-image: linear-gradient(to right, rgba(74, 170, 165, 0.4), rgba(74, 170, 165, 1.0), rgba(74, 170, 165, 0.4));
+	color: white;
+	text-align: center;
+
+
+ }
+ #top{
+ 	font-size:26px;
+ 	font-color:#4aaaaf;
+ 	font-family:'sans-serif','serif',times new roman, Calbri;
+ 	color:#4aaaaf;
+ 	border-bottom-style: groove;
+ 	border-bottom-color: #dddddd;
+ 	border-bottom:1px;
+ 	
+
+ }
+ 
+ 
+
